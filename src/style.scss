@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$font-main-title: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+$font-main:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$font-color: rgb(78, 74, 74);
+$background-color: rgb(250, 235, 215);
+
+main {
+    width: 20rem;
+    height: 35rem;
+    background-color: $background-color;
+    font-family: $font-main;
+    color: $font-color;
+    border: solid 0.1rem;
+    border-radius: 1rem;
+    margin: auto;
+}
+    header
+        img {
+            width: 100%;
+            margin: auto;
+            border-radius: 1rem 1rem 0 0;
+        }
+        h2 {
+            text-align: center;
+            margin: 1rem auto;
+            font-size: 1rem;
+        }
+    p {
+      margin: 2rem 1rem;
+      text-align: center;
+      line-height: 1.5;
+    }
+    h1 {
+        font-family: $font-main-title;
+        text-align: center;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    footer
+        p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
